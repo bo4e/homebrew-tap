@@ -1,20 +1,20 @@
 class Bo4eCli < Formula
   desc "CLI for developers. It contains many useful features when working on using BO4E in your own projects."
   homepage "https://github.com/bo4e/BO4E-CLI"
-  version "1.1.1"
+  version "1.2.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/bo4e/BO4E-CLI/releases/download/v1.1.1/bo4e-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "b4f8363705a21a5bb66ac5b8802f6a559a91671a9ab37f276174b72c72fb0b9b"
+      url "https://github.com/bo4e/BO4E-CLI/releases/download/v1.2.0/bo4e-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "26fc01be948b161a045811cd76c11f177cbc81045d7743b36f689ace7e1f904f"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/bo4e/BO4E-CLI/releases/download/v1.1.1/bo4e-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "493cf867c3ef8ddf4c5c95946e848f06fa19c17dd03ee6687b6e87731ba0fbc2"
+      url "https://github.com/bo4e/BO4E-CLI/releases/download/v1.2.0/bo4e-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "35c4ad44cbe00b7cf1d2dda99d7400180afecea509bb999102b9a85ad326f68f"
     end
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/bo4e/BO4E-CLI/releases/download/v1.1.1/bo4e-cli-x86_64-unknown-linux-gnu.tar.xz"
-    sha256 "d25da19d89a88c403292dd1b8a7c6d956c3de243416fe64fbbf16fb9532e4ac0"
+    url "https://github.com/bo4e/BO4E-CLI/releases/download/v1.2.0/bo4e-cli-x86_64-unknown-linux-gnu.tar.xz"
+    sha256 "05bdb47c081e352222acc2260cc1f2546eeededca51c1fc3d4375ed0e0e16168"
   end
   license "MIT"
 
